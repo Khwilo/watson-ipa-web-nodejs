@@ -44,7 +44,7 @@
                         <action varName="var-invite_type" operator="SET_TO">action-meeting-create</action>
                         <output>
                             <prompt>
-                                <item>Should I invite Anthony or Watson to your meeting?  Yes. It's very sad, but you only have two friends.</item>
+                                <item>Should I invite Khwilo or Watson to your meeting?  Yes. It's very sad, but you only have two friends.</item>
                             </prompt>
                             <goto ref="user_input-who"/>
                         </output>
@@ -114,7 +114,7 @@
                         </input>
                         <output>
                             <prompt>
-                                <item>I can't find that person in your contacts.  Only Anthony and Watson are present in your contact list. Unsure why, but you only have two friends.</item>
+                                <item>I can't find that person in your contacts.  Only Khwilo and Watson are present in your contact list. Unsure why, but you only have two friends.</item>
                             </prompt>
                             <goto ref="output_invite_who"/>
                         </output>
@@ -187,7 +187,7 @@
     </flow>
     <entities>
         <entity name="contact_friends">
-            <value name="Anthony" value="Anthony"/>
+            <value name="Khwilo" value="Khwilo"/>
             <value name="Watson" value="Watson"/>
         </entity>
         <entity name="contact_family">
