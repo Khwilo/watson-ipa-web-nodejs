@@ -14,15 +14,15 @@ require('./config/express')(app);
 // if bluemix credentials exists, then override local
 var dialogCredentials =  extend({
     url: "https://gateway.watsonplatform.net/dialog/api",
-    username: "<username>",
-    password: "<password>"
+    username: "7fa267a6-4689-4683-9a56-f903c446aff5",
+    password: "1fauvPRBdHxH"
 }, bluemix.getServiceCreds('dialog')); // VCAP_SERVICES
 
 // if bluemix credentials exists, then override local
 var nlcCredentials =  extend({
     "url": "https://gateway.watsonplatform.net/natural-language-classifier/api",
-    username: "<username>",
-    password: "<password>"
+    username: "b9962829-42ca-46e5-8175-0c10675061f0",
+    password: "b2gd3cXMvHmN"
 }, bluemix.getServiceCreds('natural_language_classifier')); // VCAP_SERVICES
 
 // HTTP proxy to the API
